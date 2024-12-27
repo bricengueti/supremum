@@ -1,0 +1,152 @@
+.pricing{
+    width: 100%;
+    max-width: 1125px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.card-price{
+    width: 100%;
+    max-width: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.card-price:hover { 
+    transform: translateY(-10px); /* Déplace la carte vers le haut */ 
+}
+.card-price-title{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card-price-title-bleu{
+    background-color: #2076FF;
+}
+.card-price-title-bleu{
+    background-color: #2076FF;
+}
+.card-price-title-yellow{
+    background-color: #F6C07A;
+}
+.card-price-title-orange{
+    background-color: #F77E53;
+}
+.card-price-content{
+display: flex;
+justify-content: space-between;
+}
+.card-price-title-text{
+    font-family: var(--inter);
+    font-weight: var(--weight-text-title);
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+}
+.prices-text{
+    font-size: 44px;
+    font-weight: var(--weight-text-title);
+    line-height: 38px;
+    color: #101130;
+}
+.card-price-option-point{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.bleu{
+    background-color: #2076FF;
+}
+.yellow{
+    background-color: #F6C07A;
+}
+.orange{
+    background-color: #F77E53;
+}
+.card-price-option-text{
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #606176;
+}
+.card-price-option{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.price-btn {
+    padding: 15px 60px;
+    margin: 15px 0px;
+}
+
+.price-btn-bleu:hover {
+    background-color: #2076FF; /* Fond bleu au survol */
+    color: white; /* Texte blanc au survol */
+}
+.price-btn-bleu{
+    background-color: transparent; /* Fond transparent */
+    color: #2076FF; /* Texte bleu */
+    border: 2px solid #2076FF; /* Bordure extérieure bleue */
+}
+.price-btn-yellow:hover {
+    background-color: #F6C07A; /* Fond bleu au survol */
+    color: white; /* Texte blanc au survol */
+}
+.price-btn-yellow{
+    background-color: transparent; /* Fond transparent */
+    color: #F6C07A; /* Texte bleu */
+    border: 2px solid #F6C07A; /* Bordure extérieure bleue */
+}
+
+.price-btn-orange{
+    background-color: #F77E53; /* Fond transparent */
+    color: white; /* Texte bleu */
+}
+.card-price{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.card-price-option-all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-bleu{
+    background-color: #EDF3FF;
+}
+.card-yellow{
+    background-color: #FEF0C3;
+}
+.card-orange{
+    background-color: #FEE6DC;
+}
+.prices{
+    display: flex;
+    position: relative;
+}
+.pricing-title-h2{
+    max-width: 591px;
+    font-weight: var(--weight-text-title);
+    font-family: var(--inter);
+    font-size: 36px;
+    line-height: 56px;
+    color: #101130;
+}
+@media (max-width: 600px) {
+    .card-price-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+}

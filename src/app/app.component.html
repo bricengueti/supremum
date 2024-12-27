@@ -1,0 +1,497 @@
+<main class="main">
+  <section class="header" >
+    <header class="header-head">
+      <div class="header-logo">
+        <img width="" height="" src='images/logo.png' alt="" srcset="">
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a routerLink="home" class="header-nav-link active">Home</a></li>
+          <li><a routerLink="about" class="header-nav-link" >About</a></li>
+          <li><a routerLink="services" class="header-nav-link">Services</a></li>
+          <li><a routerLink="contact" class="header-nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="submit" class="btn btn-sing">Sing In</button>
+    </header>
+    <header class="header-head-mobile">
+      <div class="header-head-mobile-btn">
+        <div class="header-logo">
+          <img width="" height="" src='images/logo.png' alt="" srcset="">
+        </div>
+        <button id="menu-button" class="btn btn-menu" (click)="toggleMenu()"> ☰ </button>
+      </div>
+        <nav class="header-nav" [class.show]="isMenuOpen">
+          <ul>
+            <li><a routerLink="home" class="btn header-nav-link active">Home</a></li>
+            <li><a routerLink="about" class=" btn header-nav-link" >About</a></li>
+            <li><a routerLink="services" class="btn header-nav-link">Services</a></li>
+            <li><a routerLink="contact" class="btn header-nav-link">Contact</a></li>
+          </ul>
+          <button type="submit" class="btn btn-sing btn-sing-mobile">Sing In</button>
+        </nav>
+    </header>
+    <div class="header-content">
+      <div class=" header-content-text">
+        <div class="header-content-text-title text-title" >Discover best classes for the best  learning</div>
+        <div class="header-content-text-paragraphe text">We designed Connections Academy to give students all across the nation a tuition-free online public school that lets them learn.</div>
+        <button class="btn btn-get-started" type="submit">
+          Get started
+        </button>
+        <p class="text">
+          Not sure when to start? <a routerLink="Learn" class="header-content-link text">Learn more</a> 
+        </p>
+      </div>
+      <div class="header-content-img">
+        <div class="header-content-img-cicle-content">
+          <div class="content">
+            <div class="content-img-first">
+              <div class="content-img">
+                <img src="images/t.png" alt="" srcset="">
+              </div>
+            </div>
+  
+            <div class="content-text">
+              <h3 class="content-text-h3">Counting</h3>
+              <h3 class="content-text-h6">100,000+</h3>
+            </div>
+          </div>
+        </div>
+        <div class="content-img-togge">
+          <div class="img-togge">
+            <img src="images/togge.png" alt="" srcset="" width="4" height="4" >
+          </div>
+        </div>
+    
+        <div class="header-img-position">
+          <img src="images/header-img-position.png" alt="" srcset="">
+        </div>
+        <img width="" height="" src='images/header-img.png' alt="" srcset="">
+      </div>
+    </div>
+  </section>
+  <section class="logo" >
+    <div class="logo-text">
+      <h1 class="logo-text-title">400+</h1>
+      <p class="text logo-text-paragraphe">Universities worldwide that partner with us</p>
+    </div>
+    <div class="logo-img">
+      <img width="" height="" src='images/brand1.png' alt="" srcset="">
+    </div>
+    <div class="logo-img">
+      <img width="" height="" src='images/brand2.png' alt="" srcset="">
+    </div>
+    <div class="logo-img">
+      <img width="" height="" src='images/brand3.png' alt="" srcset="">
+    </div>
+    <div class="logo-img">
+      <img width="" height="" src='images/brand4.png' alt="" srcset="">
+    </div>
+  </section>
+  <section class="how-it-works1">
+    <div class="how-it-works1-img">
+        <img src="images/how-to-work1.png" alt="" srcset="">
+        <div class="how-it-works1-position">
+          <div class="how-it-works1-position-content">
+            <h1>56, 5470+</h1>
+            <p class="text">Peoples are learning</p>
+            <div class="how-it-works1-position-content-img">
+              <div class="how-it-works1-position-content-img-g img-1">
+                <img src="images/Ellipse1.png" alt="" srcset="">
+              </div>
+              <div class="how-it-works1-position-content-img-g img-2">
+                <img src="images/Ellipse2.png" alt="" srcset="">
+              </div>
+              <div class="how-it-works1-position-content-img-g img-3">
+                <img src="images/Ellipse3.png" alt="" srcset="">
+              </div>
+              <div class="how-it-works1-position-content-img-g img-4">
+                <img src="images/Ellipse4.png" alt="" srcset="">
+              </div>
+              <div class="how-it-works1-position-content-img-g img-5">
+                +3
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="how-it-works1-text">
+      <h2 class="how-it-works1-text-h2">HOW OUR ONLINE PUBLIC SCHOOL WORKS</h2>
+      <div class="how-it-works1-card-section">
+        <div class="how-it-works1-card">
+          <div class="how-it-works1-card-img">
+            <img src="images/how-to-work-logo1.png" alt="" srcset="">
+          </div>
+          <h3 class="how-it-works1-card-title">VIRTUAL LEARNING</h3>
+          <p class="text how-it-works1-card-text">The only costs are for standard school supplies and voluntary field trips.</p>
+        </div>
+        <div class="how-it-works1-card">
+          <div class="how-it-works1-card-img">
+            <img src="images/how-to-work-logo2.png" alt="" srcset="">
+          </div>
+          <h3 class="how-it-works1-card-title">Meaningful Education</h3>
+          <p class="text how-it-works1-card-text">Many of our Connections Academy schools have additional accreditations.</p>
+        </div>
+        <div class="how-it-works1-card">
+          <div class="how-it-works1-card-img">
+            <img src="images/how-to-work-logo3.png" alt="" srcset="">
+          </div>
+          <h3 class="how-it-works1-card-title">Meaningful Education</h3>
+          <p class="text how-it-works1-card-text">Our curriculum prepares students to go further in life by giving them support.</p>
+        </div>
+        <div class="how-it-works1-card">
+          <div class="how-it-works1-card-img">
+            <img src="images/how-to-work-logo4.png" alt="" srcset="">
+          </div>
+          <h3 class="how-it-works1-card-title">SOCIAL INTERACTION</h3>
+          <p class="text how-it-works1-card-text">Students at Connections Academy collaborate on projects together.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="how-it-works2" >
+    <div class="how-it-works2-title">
+      <h2 class="how-it-works2-title-h2">HOW OUR ONLINE PUBLIC SCHOOL WORKS</h2>
+      <button class=" btn how-it-works2-title-btn" type="button">View all courses</button>
+    </div>
+    <div class="how-it-works2-card-section">
+      <div class="how-it-works2-card">
+        <div class="how-it-works2-card-img">
+          <img src="images/Image1.png" alt="" srcset="">
+        </div>
+        <div class="how-it-works2-card-text">
+          <h3 class="how-it-works2-card-text-h3">Hands-On Python & R In Data Science</h3>
+          <div class="how-it-works2-card-text-indication">
+            <div class="how-it-works2-card-text-indication-content">
+              <div class="how-it-works2-card-text-indication-peopel">
+                <img src="images/user.png" alt="" srcset="">
+              </div>
+              <span class="text">1,45,690</span>
+            </div>
+            <div class="how-it-works2-card-text-indication-content">
+              <div class="how-it-works2-card-text-indication-peopel">
+                <img src="images/circle.png" alt="" srcset="">
+              </div>
+              <span class="text">4 monts</span>
+            </div>
+          </div>
+        </div>
+        <button class="btn how-it-works2-card-btn" type="submit">
+          <div class="img-btn-card">
+            <img src="images/Buy.svg" alt="" srcset="">
+          </div>
+          <span>Add to Cart</span>
+        </button>
+      </div>
+      <div class="how-it-works2-card">
+        <div class="how-it-works2-card-img">
+          <img src="images/Image2.png" alt="" srcset="">
+        </div>
+        <div class="how-it-works2-card-text">
+          <h3 class="how-it-works2-card-text-h3">Science and Machine Learning Bootcamp</h3>
+          <div class="how-it-works2-card-text-indication">
+            <div class="how-it-works2-card-text-indication-content">
+              <div class="how-it-works2-card-text-indication-peopel">
+                <img src="images/user.png" alt="" srcset="">
+              </div>
+              <span class="text">1,45,690</span>
+            </div>
+            <div class="how-it-works2-card-text-indication-content">
+              <div class="how-it-works2-card-text-indication-peopel">
+                <img src="images/circle.png" alt="" srcset="">
+              </div>
+              <span class="text">4 monts</span>
+            </div>
+          </div>
+        </div>
+        <button class="btn how-it-works2-card-btn" type="submit">
+          <div class="img-btn-card">
+            <img src="images/Buy.svg" alt="" srcset="">
+          </div>
+          <span>Add to Cart</span>
+        </button>
+      </div>
+      <div class="how-it-works2-card">
+        <div class="how-it-works2-card-img">
+          <img src="images/Image3.png" alt="" srcset="">
+        </div>
+        <div class="how-it-works2-card-text">
+          <h3 class="how-it-works2-card-text-h3 how-it-works2-card-text-h3-last">The Python Mega Course:Real Applications</h3>
+          <div class="how-it-works2-card-text-indication">
+            <div class="how-it-works2-card-text-indication-content">
+              <div class="how-it-works2-card-text-indication-peopel">
+                <img src="images/user.png" alt="" srcset="">
+              </div>
+              <span class="text">1,45,690</span>
+            </div>
+            <div class="how-it-works2-card-text-indication-content">
+              <div class="how-it-works2-card-text-indication-peopel">
+                <img src="images/circle.png" alt="" srcset="">
+              </div>
+              <span class="text">4 monts</span>
+            </div>
+          </div>
+        </div>
+        <button class="btn how-it-works2-card-btn" type="submit">
+          <div class="img-btn-card">
+            <img src="images/Buy.svg" alt="" srcset="">
+          </div>
+          <span>Add to Cart</span>
+        </button>
+      </div>
+    </div>
+   
+  </section>
+  <section class="features" >
+    <div class="features-text">
+      <h2 class="features-text-h2">Transform your life through education</h2>
+      <p class="text features-text-p">Ariel Hocsman launched a new career in software development by taking courses on Besnik. What will you be able to do?</p>
+      <button class="btn features-text-btn" type="button">Get Started</button>
+    </div>
+    <div class="features-video">
+      <div class="video">
+        <div class="video-container">
+          <img src="images/video.png" alt="" srcset="">
+          <div class="video-play">
+            <img src="images/play.png" alt="" srcset="">
+            <div class="ripple"></div> 
+            <div class="ripple"></div> 
+            <div class="ripple"></div>
+           </div>
+         </div>
+      </div>
+
+      <div class="features-video-content">
+     
+        <div class="features-video-container">
+          <div class="features-video-img">
+            <img src="images/video1.png" alt="" srcset="">
+          </div>
+          <span class="text">
+            Lecture 1
+          </span>
+        </div>
+        <div class="features-video-container">
+          <div class="features-video-img">
+            <img src="images/video2.png" alt="" srcset="">
+          </div>
+          <span class="text">
+            Lecture 2
+          </span>
+        </div>
+        <div class="features-video-container">
+          <div class="features-video-img">
+            <img src="images/video3.png" alt="" srcset="">
+          </div>
+          <span class="text">
+            Lecture 3
+          </span>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <section class="testimonial" >
+    <div class="testimonial-title">
+      <h2 class="testimonial-title-h2">Transform your life through education</h2>
+      <div class="testimonial-direction">
+        <div class="testimonial-direction-left">
+          &#8592;
+        </div>
+        <div class="testimonial-direction-right">
+          &#8594;
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-slider">
+      <div class="testimonial-text">
+        <h5 class="testimonial-text-h5">
+          “Love mathematics because of Besnik Academy”
+        </h5>
+        <p class="text testimonial-text-p">
+          "The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."
+        </p>
+        <div class="testimonial-text-profil">
+          <div class="testimonial-text-profil-img">
+            <img src="images/testi1.png" alt="" srcset="">
+          </div>
+          <div class="testimonial-text-profil-text">
+            <h6 class="testimonial-text-profil-text-h6">
+              Ariel Hocsman
+            </h6>
+            <span class="text testimonial-text-profil-text-span">
+              Ontario, Canada
+            </span>
+            <div class="stars"> &#9733; &#9733; &#9733; &#9733; &#9733;  </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-text">
+        <h5 class="testimonial-text-h5">
+          “Love mathematics because of Besnik Academy”
+        </h5>
+        <p class=" testimonial-text-p">
+          "The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."
+        </p>
+        <div class="testimonial-text-profil">
+          <div class="testimonial-text-profil-img">
+            <img src="images/testi2.png" alt="" srcset="">
+          </div>
+          <div class="testimonial-text-profil-text">
+            <h6 class="testimonial-text-profil-text-h6">
+              Milena Belmar
+            </h6>
+            <span class="text testimonial-text-profil-text-span">
+              Argentina
+            </span>
+            <div class="stars"> &#9733; &#9733; &#9733; &#9733; &#9734;  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="pricing" >
+    <div class="how-it-works2-title">
+      <h2 class="pricing-title-h2">Transform your life through education</h2>
+      <button class=" btn how-it-works2-title-btn" type="button">Upgrade now</button>
+    </div>
+    <div class="card-price-content">
+      <div class="card-price card-bleu">
+        <div class="card-price-title card-price-title-bleu">
+          <span class="text card-price-title-text" >Regular</span>
+        </div>
+        <div class="prices">
+          <div class="dollar" >$</div>
+          <span class="text prices-text" >69</span>
+        </div>
+        <div class="card-price-option-all">
+          <div class="card-price-option">
+            <div class="card-price-option-point bleu"></div>
+            <div class=" text card-price-option-text">1 Day Event</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point bleu"></div>
+            <div class=" text card-price-option-text">1 Speaker</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point bleu"></div>
+            <div class=" text card-price-option-text">Interaction Sessions</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point bleu"></div>
+            <div class=" text card-price-option-text">35 Classes</div>
+          </div>
+          
+        </div>
+        <button class=" btn price-btn price-btn-bleu" type="button">Buy Plan</button>
+      </div>
+      <div class="card-price card-yellow">
+        <div class="card-price-title card-price-title-yellow">
+          <span class="text card-price-title-text" >Medium</span>
+        </div>
+        <div class="prices">
+          <div class="dollar" >$</div>
+          <span class="text prices-text" >95</span>
+        </div>
+        <div class="card-price-option-all">
+          <div class="card-price-option">
+            <div class="card-price-option-point yellow"></div>
+            <div class=" text card-price-option-text">1 Day Event</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point yellow"></div>
+            <div class=" text card-price-option-text">1 Speaker</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point yellow"></div>
+            <div class=" text card-price-option-text">Interaction Sessions</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point yellow"></div>
+            <div class=" text card-price-option-text">65 Classes</div>
+          </div>
+          
+        </div>
+        <button class=" btn price-btn price-btn-yellow" type="button">Buy Plan</button>
+      </div>
+      <div class="card-price card-orange">
+        <div class="card-price-title card-price-title-orange">
+          <span class="text card-price-title-text" >Premium</span>
+        </div>
+        <div class="prices">
+          <div class="dollar" >$</div>
+          <span class="text prices-text" >445</span>
+        </div>
+        <div class="card-price-option-all">
+          <div class="card-price-option">
+            <div class="card-price-option-point orange"></div>
+            <div class=" text card-price-option-text">1 Day Event</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point orange"></div>
+            <div class=" text card-price-option-text">1 Speaker</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point orange"></div>
+            <div class=" text card-price-option-text">Interaction Sessions</div>
+          </div>
+          <div class="card-price-option">
+            <div class="card-price-option-point orange"></div>
+            <div class=" text card-price-option-text">95 Classes</div>
+          </div>
+          
+        </div>
+        <button class=" btn price-btn  price-btn-orange" type="button">Buy Plan</button>
+      </div>
+    </div>
+  </section>
+  <section class="footer" >
+    <div class="footer-firt-part">
+      <div class="footer-first footer-element">
+        <div class="footer-first-logo">
+          <img src="images/logo.png" alt="" srcset="">
+        </div>
+          <p class="text footer-first-text-p">
+            Our motto to fulfill customer demand by making them satisfied with growing their business.
+          </p>
+      </div>
+      <div class="footer-second footer-element">
+        <h2 class="footer-element-h2">About</h2>
+        <div class="footer-second-text">
+          <span class="text">About Us</span>
+          <span class="text">Features</span>
+          <span class="text">News</span>
+          <span class="text">Careers</span>
+          <span class="text">FAQ</span>
+        </div>
+      </div>
+      <div class="footer-thirt footer-element">
+        <h2 class="footer-element-h2">Support</h2>
+        <div class="footer-second-text">
+          <span class="text">Account</span>
+          <span class="text">Support Center</span>
+          <span class="text">Feedback</span>
+          <span class="text">Contact Us</span>
+          <span class="text">Accesbility</span>
+        </div>
+      </div>
+      <div class="footer-fourth footer-element">
+        <h2 class="footer-element-h2">Get our app</h2>
+        <div class="footer-second-text">
+          <div class="footer-content-img">
+            <img src="images/google_store.png" alt="" srcset="">
+          </div>
+          <div class="footer-content-img">
+            <img src="images/apple.png" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-last-part">
+      <p class="text" >Copyright Besnik 2021 All rights reserved.</p>
+    </div>
+  </section>
+</main>
+<router-outlet />

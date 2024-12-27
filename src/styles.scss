@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('asset/css/global.css');
+@import url('asset/css/header.css');
+@import url('asset/css/logo.css');
+@import url('asset/css/how_it_works1.css');
+@import url('asset/css/how_it_works2.css');
+@import url('asset/css/features.css');
+@import url('asset/css/testimonial.css');
+@import url('asset/css/pricing.css');
+@import url('asset/css/footer.css');
+:root{
+    --color-primary: #2378FF;
+    --color-secondary: #F77E53;
+    --color-text-title: #F6C07A;
+    --weight-text-title: 700;
+    --weight-text--sub-title: 600;
+    --color-text: #606176;
+    --weight-text: 400;
+    --color-text-muted: #999;
+    --color-background: #fff;
+    --color-border: #E5E7EB;
+    --color-border-light: #D1D3D6;
+    --color-border-muted: #C0C2C5;
+    --roboto: "Roboto", serif;
+    --inter: "Inter", serif;
+}

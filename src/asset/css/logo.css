@@ -1,0 +1,43 @@
+.logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    overflow: hidden; /* S'assure que l'image zoomée reste dans le conteneur */
+}
+
+.logo-img  {
+    transition: transform 0.5s ease; /* Ajoute une transition pour un effet doux */
+}
+
+.logo-img:hover  {
+    transform: scale(1.2); /* Augmente l'échelle de l'image au survol */
+}
+
+.logo-text-title{
+    font-family: var(--roboto);
+    font-weight: var(--weight-text-title);
+    font-size: 62px;
+    line-height: 75.03px;
+    color: #101131;
+}
+.logo-text-paragraphe{
+    font-weight: var(--weight-text);
+    line-height: 28px;
+    size: 20px;
+}
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 251px;
+    height: 141px;
+}
+.logo{
+    width: 100%;
+    max-width: 1179.65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

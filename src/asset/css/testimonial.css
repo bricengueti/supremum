@@ -1,0 +1,113 @@
+
+.testimonial{
+    margin-top: 70px;
+    width: 100%;
+    max-width: 1105px;
+
+}
+.testimonial-direction{
+    display: flex;
+    justify-content: center;                                        
+    align-items: center;
+    width: 28px;
+    font-size: 50px;
+}
+.testimonial-title-h2{
+    font-family: var(--inter);
+    font-weight: var(--weight-text-title);
+    width: 476px;
+    font-size: 44px;
+    line-height: 56px;
+    color: #101130;
+}
+.testimonial-title{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial-text-h5{
+    font-family: 500;
+    font-size: 22px;
+    line-height: 28px;
+    width: 329px;
+    color: #101130;
+}
+.testimonial-text-p{
+    font-family: var(--roboto);
+    font-weight: 400;
+    /* width: 100%; */
+    font-size: 18px;
+    line-height: 30px;
+    width: 449px;
+    color: #636780;
+}
+.testimonial-text{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.testimonial-text-profil-text-h6{
+    font-family: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #101130;
+}
+.testimonial-text-profil-text-span{
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #606176;
+}
+.stars{
+    color: #FFB800;
+}
+.testimonial{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 40px;
+    flex-direction: column;
+
+}
+.testimonial-text-profil-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60px;                                                                                                                                                            
+}
+.testimonial-text-profil{
+    display: flex;
+    gap: 20px;
+    
+}
+.testimonial-slider{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 600px) {
+    .testimonial-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    .testimonial-title-h2{
+        width:100%;
+        text-align: center;
+    }
+    .testimonial-slider{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .testimonial-text{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
